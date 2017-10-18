@@ -1,0 +1,27 @@
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    width:90%;
+    margin-left: 5%;
+}
+.cuadro{
+    flex-grow: 1;
+    width:300px;
+    height:200px;
+    text-align: center;
+
+}
+.img{
+    background-image: url('https://images.pexels.com/photos/247932/pexels-photo-247932.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb');
+    background-position: center;
+    background-size: cover;
+    height:200px;
+    width:90%;
+    margin-left: 5%;
+
+}
+.img p{
+    color: white;
+    font-size: 20px;
+   padding-top: 26%;
+ }
