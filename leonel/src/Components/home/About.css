@@ -25,3 +25,55 @@
     font-size: 20px;
    padding-top: 26%;
  }
+.categorias{
+    margin-top: 50px;
+}
+.box_cats{
+    display: flex;
+    flex-wrap: wrap;
+    width:90%;
+    margin-left: 5%;
+}
+.cat{
+    width:100px;
+    height:300px;
+    flex-grow: 1;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    margin: 0 30px;
+
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://images.pexels.com/photos/53207/carnival-venice-eyes-mask-53207.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb');
+    cursor: pointer;
+}
+.cubierta{
+    width:100%;
+    height:100%;
+    transition: all 1s ease;
+
+}
+.cubierta:hover{
+    background-color: rgba(0,0,0,.5);
+
+}
+.etiqueta{
+    width:100%;
+    height:70px;
+    background-color: white;
+    position: relative;
+    top:60%;
+    transition: all 1s ease;
+    display: none;
+}
+.etiqueta p{
+    margin-top: 0px;
+    padding-top: 20px;
+    display: none;
+}
+.cubierta:hover .etiqueta{
+    display: block;
+}
+.cubierta:hover .etiqueta p{
+    display: block;
+}
