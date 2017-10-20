@@ -8,27 +8,39 @@ class About extends Component {
     render() {
         return (
             <div >
-                <div className="about">
-                    <div className="cuadro">
-                        <div className="img">
-                            <p>Sobre nosotros</p>
-                        </div>
-                    </div>
-                    <div className="cuadro">
-                        <div className="img">
-                            <p>Sobre nosotros</p>
-                        </div>
-                    </div>
-                    <div className="cuadro">
-                        <div className="img">
-                            <p>Sobre nosotros</p>
-                        </div>
-                    </div>
-                </div>
+                <div>
 
+                    <div className="about">
+                        <div className="paper">
+
+                            <div className='magnify' ></div>
+                            <span className='box_etiqueta'>Sobre nosotros</span>
+                            <div className='padre'>
+                                <img  src='https://media-cdn.tripadvisor.com/media/photo-s/0b/8c/2e/00/artesanias-werregue.jpg' alt='Energia'/>
+                            </div>
+                        </div>
+                        <div className="paper">
+
+                            <div className='magnify' ></div>
+                            <span className='box_etiqueta'>Sobre nosotros</span>
+                            <div className='padre'>
+                                <img  src='https://media-cdn.tripadvisor.com/media/photo-s/0b/8c/2e/00/artesanias-werregue.jpg' alt='Energia'/>
+                            </div>
+                        </div>
+                        <div className="paper">
+
+                            <div className='magnify' ></div>
+                            <span className='box_etiqueta'>Sobre nosotros</span>
+                            <div className='padre'>
+                                <img  src='https://media-cdn.tripadvisor.com/media/photo-s/0b/8c/2e/00/artesanias-werregue.jpg' alt='Energia'/>
+                            </div>
+                        </div>
+
+                </div>
+            </div>
                 <div className="categorias">
-                    <hr />
-                    <h2>Categorías</h2>
+                    <hr  className="linea"/>
+                    <h2 className="subtittle">Categorías</h2>
                     <br />
                     <div className="box_cats">
                         <div className="cat">

@@ -5,7 +5,7 @@
     margin: 0 20px;
 }
 .img_prod{
-    background-image: url('https://images.pexels.com/photos/159825/color-pencil-drawing-coloring-colored-pencils-159825.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb');
+    background-image: url('http://www.yucatan.gob.mx/docs/galerias/artesanias/2.jpg');
     background-size:cover;
     width:100%;
     height:70%;
@@ -20,13 +20,13 @@
     height:2px;
     width:0px;
     border: none;
-    background-color: #e09a0e;
+    background-color: #C2185B;
     transition: all 1s ease;
     float: left;
     margin-left: 10px;
 }
 .card:hover h4{
-    color:#e09a0e;
+    color:#C2185B;
 
 }
 .card:hover .line{

@@ -1,7 +1,9 @@
-.destcados{
+.destacados{
     background-color: #f0f0f0;
     width: 100%;
     height:auto;
+    margin-top: 50px;
+    padding-top: 20px;
 }
 .flex{
     display: flex;

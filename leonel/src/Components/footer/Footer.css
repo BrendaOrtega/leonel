@@ -1,0 +1,42 @@
+.footer{
+    background-color: #C2185B;
+    width:100%;
+    height:auto;
+    color:white;
+}
+.message{
+    padding-top: 30px;
+    height:160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Avant';
+    font-size: 30px;
+}
+
+.message button{
+    width:120px;
+    height:30px;
+    border:1px solid white;
+    border-radius: 4px;
+    background-color: white;
+    color:#C2185B;
+    
+    cursor: pointer;
+}
+.hr{
+    height:1px;
+    border:none;
+    width:90%;
+    background-color: white;
+}
+.redes{
+
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.redes span{
+    margin:0 15px;
+}

@@ -6,7 +6,7 @@ class Destacados extends Component {
     render() {
         return (
             <div className="destacados">
-                <h2>Novedades</h2>
+                <h2 className="subtittle">Novedades</h2>
                 <div className="flex">
                     <Card />
                     <Card />

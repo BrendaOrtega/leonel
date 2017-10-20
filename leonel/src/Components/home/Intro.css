@@ -1,21 +1,37 @@
+@font-face {
+    font-family: Avant;
+    src: url(../../assets/AmaticSC-Bold.ttf);
+}
 .intro{
-    background-image: url('https://images.pexels.com/photos/287748/pexels-photo-287748.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb');
+    background-image: url('http://sic.gob.mx/imagenes_cache/casa_artesania_27_i_45770.png');
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
     width:100%;
-    height:95vh;
+    height:98vh;
+}
+.dark{
+    width:100%;
+
+    height:98vh;
+    background-color: rgba(0,0,0,.5);
 }
 .text_intro{
     color: white;
     text-align: center;
+    font-family: 'Avant';
+
 }
 .text_intro h1{
     padding-top: 300px;
     margin-bottom: 0px;
+    font-size: 60px;
+    margin-top: 0px;
 
 }
 .slogan{
     margin-top: 3px;
+    font-size: 20px;
 }
 .box_intro{
     display: flex;
@@ -28,4 +44,8 @@
     margin: 0 20px;
     width:80px;
     cursor: pointer;
+    transition: all 1s ease;
+}
+.liga:hover{
+    background-color: rgba(255,255,255,.5);
 }

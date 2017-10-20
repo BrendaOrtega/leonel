@@ -2,8 +2,8 @@
 import Intro from './Intro';
 import About from './About';
 import Destacados from './Destacados';
-
-
+import Comentarios from './Comentarios';
+import Footer from '../footer/Footer';
 
 class Home extends Component {
   render() {
@@ -12,6 +12,8 @@ class Home extends Component {
             <Intro />
             <About />
             <Destacados />
+            <Comentarios />
+            <Footer />
       </div>
     );
   }
