@@ -3,6 +3,7 @@
     flex-grow: 1;
     height:330px;
     margin: 0 20px;
+    cursor:pointer;
 }
 .img_prod{
     background-image: url('http://www.yucatan.gob.mx/docs/galerias/artesanias/2.jpg');
@@ -31,4 +32,10 @@
 }
 .card:hover .line{
     width: 50px;
+}
+
+ a{
+    text-decoration: none;
+    color:#C2185B;
+
 }
